@@ -1,0 +1,16 @@
+class calculater:
+    def __init__(self,n):
+    
+        self.n=n
+    def square(self):
+        print(f"square of number is {self.n*self.n}")
+    def cube (self):
+        print(f" cube of number is {self.n*self.n*self.n}")
+    def root(self):
+        print(f"root of number is {self.n**1/2}")
+
+
+a=calculater(int(input("enter a number : ")))
+a.square()
+a.cube()
+a.root()
